@@ -31,7 +31,7 @@ void shell() {
 // FUNGSI-FUNGSI PEMBANTU
 void printPathRecursive(struct node_fs *node_fs_buf, byte cwd_idx);
 
-// TODO: 4. Implement printCWD function
+// TODO: 4. Implement printCWD function [DONE]
 void printCWD(byte cwd) {
     struct node_fs node_fs_buf;
 
